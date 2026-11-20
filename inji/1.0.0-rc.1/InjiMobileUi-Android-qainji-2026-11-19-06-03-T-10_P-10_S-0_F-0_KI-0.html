@@ -1,0 +1,3047 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Execution Report ---- Inji Mobile UI Test ---- Report Date: 2026-11-19 ---- Tested Environment: qainji</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 19, 2026 05:56:34 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">NoNetworkFlowSanityTest :: downloadMosipIdVCWithoutInternet</p>
+            <p class="text-sm">
+              <span>5:56:45 AM</span> / <span>00:01:52:229</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">NoNetworkFlowSanityTest :: downloadMosipIdVCWithoutInternet</h5>
+<span class='badge badge-success'>11.19.2026 5:56:45 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:58:37 AM</span>
+<span class='badge badge-default'>00:01:52:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:26 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:27 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:57 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:02 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:06 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:07 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:08 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:36 AM</td>
+        <td>
+          Element with accessibilityId 'issuerDescription-Mosip' was NOT visible after 6 scroll attempts.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:58:36 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:37 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/0b4932d7214c94b6c1bab40f0fad4b17c338bd8e?auth_token=823821fbd9bfc651eba1a240b99c821d1e3614fbdb20974b0f53c6f56ec37e6e' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:37 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/0b4932d7214c94b6c1bab40f0fad4b17c338bd8e/video?token=V3lwN2p0VHZSQVNCcDdIMHRMNEVTUlAzaXBuSytFSy9pb0FBcDh1TWpPL0JjcTcyU2FiMjAyRUZVeFVremRyMDZzWnlQajJPbzZlT0RzdEhUM3FiR2c9PS0tMU9EaUpzNUk1NEtwSXRnQmtYK3ByZz09--3918794bcfd70ba7dbe0f600845d24526d2e0643&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MosipFlowSanityTest :: downloadMosipIdVCAndActivateVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:56:45 AM</span> / <span>00:02:22:657</span>
+              <span class="badge warning-bg log float-right">Warning</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-warning">MosipFlowSanityTest :: downloadMosipIdVCAndActivateVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:56:45 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:59:07 AM</span>
+<span class='badge badge-default'>00:02:22:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:19 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:20 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:21 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:23 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:27 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:32 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:32 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:33 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:34 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:35 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:36 AM</td>
+        <td>
+          Clicking on 'Settings' icon - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: settings})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:37 AM</td>
+        <td>
+          Clicking on Key Management - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: keyManagement})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:37 AM</td>
+        <td>
+          Clicking on the Done button (step count button) - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:45 AM</td>
+        <td>
+          Clicking on Save Key Ordering Preference button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: saveKeyOrderingPreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:46 AM</td>
+        <td>
+          Checking if key ordering success message is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: keyOrderingSuccessText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:46 AM</td>
+        <td>
+          Clicking on the left arrow button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: arrow-left})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:47 AM</td>
+        <td>
+          Clicking on 'Home' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: home})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:48 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:49 AM</td>
+        <td>
+          Verify if Add New Card header is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: title})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:49 AM</td>
+        <td>
+          Step: Download VC via eSignet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:49 AM</td>
+        <td>
+          Click on 'Download via Esignet' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (96570552ac0f9ef710411073d8a034df39500b51)] -> accessibility id: issuerHeading-Mosip]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:50 AM</td>
+        <td>
+          Click on 'MOSIP Verifiable Credential' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (96570552ac0f9ef710411073d8a034df39500b51)] -> accessibility id: credentialTypeHeading-MOSIPVerifiableCredential]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:51 AM</td>
+        <td>
+          Step: Click eSignet Login with OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:52 AM</td>
+        <td>
+          Click on 'Continue' button in Esignet login popup - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.id: android:id/button1})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:53 AM</td>
+        <td>
+          Check if ESignet page is landed and ESignet logo is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: brand_logo})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:53 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '7589604986'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:56 AM</td>
+        <td>
+          Click on 'Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:56 AM</td>
+        <td>
+          Check if OTP sent message is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'Please enter the 6-digit OTP sent to')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:56 AM</td>
+        <td>
+          Step: Enter OTP for eSignet verification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:06 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:06 AM</td>
+        <td>
+          Step: Complete VC download
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:10 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Clicking on 'More Options' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: ellipsis})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Clicking on 'Pin/Unpin Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: pinOrUnPinCard})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:13 AM</td>
+        <td>
+          Checking if 'PIN' icon is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: pinIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:13 AM</td>
+        <td>
+          Clicking on 'More Options' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: ellipsis})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:14 AM</td>
+        <td>
+          Clicking on 'Pin/Unpin Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: pinOrUnPinCard})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>5:58:45 AM</td>
+        <td>
+          Checking if 'PIN' icon is displayed - But Element not visible: Located by By.chained({AppiumBy.accessibilityId: pinIcon})
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:46 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:47 AM</td>
+        <td>
+          Check if Detailed VC View page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idDetailsHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:47 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:48 AM</td>
+        <td>
+          Clicking on 'Activation Pending' from details view - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: pendingActivationOrActivated})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:49 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:50 AM</td>
+        <td>
+          Verify OTP Verification page is loaded<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: otpVerificationHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:51 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:57 AM</td>
+        <td>
+          Check if the 'Profile Authenticated' indicator is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: profileAuthenticated})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:57 AM</td>
+        <td>
+          Check if the 'Profile Authenticated' indicator is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: profileAuthenticated})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:58 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:04 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (96570552ac0f9ef710411073d8a034df39500b51)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:06 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Verifying downloaded National ID history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'National ID is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Verifying successful activation of National ID on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Activation of MOSIP National ID is successful.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Verifying deleted MOSIP National ID history on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'MOSIP National ID is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/96570552ac0f9ef710411073d8a034df39500b51?auth_token=bfa2a604b5dc2325f092e6736bead27e415daf9cd7eeebef3c2948863aa13df7' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/96570552ac0f9ef710411073d8a034df39500b51/video?token=dmhQOUNWQ3lLS1ZUaEp4cWNYZTRvK0FRQzdTUkF4ME16NmNPK2lkSWdrd2d0bCtmOG5aOERwSk9uOFNvaXFGdGIwNnBCbUl6cmt6SEhQQ25kcm92Y1E9PS0tYTA3WHdHT0lxM2J3SVRCVkZJc2poZz09--1b08719bcb1c00975039562c038742b4ad2ca4f9&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">FarmerFlowSanityTest :: downloadFarmerVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:56:45 AM</span> / <span>00:01:41:685</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">FarmerFlowSanityTest :: downloadFarmerVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:56:45 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:58:26 AM</span>
+<span class='badge badge-default'>00:01:41:685</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:21 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:22 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:23 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:24 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:29 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:34 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:34 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:35 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:36 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:37 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:37 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:39 AM</td>
+        <td>
+          Verify if Add New Card header is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: title})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:39 AM</td>
+        <td>
+          Step: Download VC via Farmer Issuer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:49 AM</td>
+        <td>
+          Click on 'Download via Farmer SVG' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f5f5694c760d5b60bfaed2c5e3f940406856db27)] -> accessibility id: issuerHeading-Farmer]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:50 AM</td>
+        <td>
+          Click on 'Farmer Id with Face' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f5f5694c760d5b60bfaed2c5e3f940406856db27)] -> accessibility id: credentialTypeHeading-FarmerCredential_VCDM2.0_WithFace]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:51 AM</td>
+        <td>
+          Clicking on continue button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'CONTINUE')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:53 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '9876543210'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:54 AM</td>
+        <td>
+          Click on 'Hide Keyboard and Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:54 AM</td>
+        <td>
+          Step: Enter OTP for eSignet verification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:05 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Check if Detailed VC View page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idDetailsHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:23 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f5f5694c760d5b60bfaed2c5e3f940406856db27)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:24 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:25 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:26 AM</td>
+        <td>
+          Verifying downloaded Farmer Credential history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Farmer Credential With Face is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:26 AM</td>
+        <td>
+          Verifying deleted Farmer Credential record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Farmer Credential With Face is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:58:26 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:26 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/f5f5694c760d5b60bfaed2c5e3f940406856db27?auth_token=048d01916f1de201aca7a6cd6f6a30a03cd17c1106d2e984c1aabc80332fce4e' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:26 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/f5f5694c760d5b60bfaed2c5e3f940406856db27/video?token=ZFMyL3V6Y0FFZUNEelhWSzBZeU05SE1CejRTMlBWOGZ6aEZrQmE0MU1SOHdGZ0pqT1BEVkhoZzArZkVwRW1rN1IrNnNkS3MzbmJaeEdpNVlHNFBkS1E9PS0tVjA4MnZSdjZUM1RmSUx1N0hMclNaZz09--6b20c0fe3a60e4773154a6e310d20757cd613fbe&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">ShareAndReceiveCardSanityTest :: shareVcAndReceiveVc</p>
+            <p class="text-sm">
+              <span>5:56:45 AM</span> / <span>00:01:32:434</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ShareAndReceiveCardSanityTest :: shareVcAndReceiveVc</h5>
+<span class='badge badge-success'>11.19.2026 5:56:45 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:58:17 AM</span>
+<span class='badge badge-default'>00:01:32:434</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:20 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:21 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:22 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:23 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:27 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:32 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:33 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:33 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:34 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:35 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:36 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:38 AM</td>
+        <td>
+          Check if Esignet issuer description is displayed - Visible at current position<details><summary>Locator Details</summary><pre>By.AppiumaccessibilityId("issuerDescription-Mosip")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:38 AM</td>
+        <td>
+          Step: Download VC via eSignet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:45 AM</td>
+        <td>
+          Click on 'Download via Mock sd jwt' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f4a5facaff3183e85b3ef82a596d0cce12114971)] -> accessibility id: issuerHeading-Mock]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:46 AM</td>
+        <td>
+          Click on 'Mock Sd Jwt' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f4a5facaff3183e85b3ef82a596d0cce12114971)] -> accessibility id: credentialTypeHeading-MockVerifiableCredential_SD_JWT]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:49 AM</td>
+        <td>
+          Clicking on continue button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'CONTINUE')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:50 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '1795067703467'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:51 AM</td>
+        <td>
+          Click on 'Hide Keyboard and Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:51 AM</td>
+        <td>
+          Step: Enter OTP for eSignet verification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:02 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:02 AM</td>
+        <td>
+          Step: Complete VC download
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:04 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:05 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:05 AM</td>
+        <td>
+          Clicking on 'Share' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: share})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:07 AM</td>
+        <td>
+          Click on Camera Permission Popup (Android) - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="com.android.permissioncontroller:id/permission_allow_foreground_only_button"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Check if Camera Page is Loaded (Hold Camera Steady)<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: holdPhoneSteadyMessage})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Check if Flip Camera Button is Clickable<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: flipCameraIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:09 AM</td>
+        <td>
+          Clicking on 'Settings' icon - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: settings})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:10 AM</td>
+        <td>
+          Text from element "receiveCard": Receive Card
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:10 AM</td>
+        <td>
+          Checking if Received Cards section is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: receivedCards})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Clicking on Receive Card - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: receiveCard})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Click on Nearby Devices Allow button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.id: com.android.permissioncontroller:id/permission_allow_button})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:13 AM</td>
+        <td>
+          Click on Location Allow button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.androidUIAutomator: new UiSelector().textContains("Allow")})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          Verify 'Receive Card' header is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: showQrCode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          Verify 'Waiting for connection' message is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: receiveCardStatusMessage})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/f4a5facaff3183e85b3ef82a596d0cce12114971?auth_token=78141f35c8728fe7ca056247299691f92a29e94e270536222a50fa7de6a08cfe' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/f4a5facaff3183e85b3ef82a596d0cce12114971/video?token=bUwxbTFHTkhwRDB1OGs1SDRWYWE4TEZQSUs3WDdOUVJRbGY4ZnpOZVYvY1AvZlZ4U2NuWEpseGhRajRmekdGZXVZeHdUdnU1R2svaUkwVTNJZFlsdEE9PS0tcFlJa2ZkWmZUWkpnbjhsNVJQZ2hTdz09--912c82f8161f95dbae2d025256d15ccbe161f700&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">LandFlowSanityTest :: downloadLandVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:56:45 AM</span> / <span>00:01:32:303</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">LandFlowSanityTest :: downloadLandVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:56:45 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:58:17 AM</span>
+<span class='badge badge-default'>00:01:32:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:25 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:26 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:27 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:29 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:33 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:38 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:38 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:39 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:40 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:41 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:42 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:43 AM</td>
+        <td>
+          Verify if Add New Card header is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: title})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:43 AM</td>
+        <td>
+          Step: Download VC via Farmer Issuer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:50 AM</td>
+        <td>
+          Click on 'Download via Land' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (839795c58f4bc3652b6fc5d71facc71ba907d3e2)] -> accessibility id: issuerHeading-Land(Released)]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:52 AM</td>
+        <td>
+          Click on 'land Verifiable Credential' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (839795c58f4bc3652b6fc5d71facc71ba907d3e2)] -> accessibility id: credentialTypeHeading-LandStatementCredential]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:53 AM</td>
+        <td>
+          Click on 'Continue' button in Esignet login popup - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.id: android:id/button1})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:54 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '2154189532'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:57 AM</td>
+        <td>
+          Click on 'Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:57:57 AM</td>
+        <td>
+          Step: Enter OTP for eSignet verification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:06 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:11 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:12 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:13 AM</td>
+        <td>
+          Check if Detailed VC View page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idDetailsHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:13 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:14 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (839795c58f4bc3652b6fc5d71facc71ba907d3e2)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:15 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:16 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:16 AM</td>
+        <td>
+          Verifying downloaded Land Credential history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'STATEMENT OF THE STATUS OF INFORMATION DECLARED IN CAR is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:16 AM</td>
+        <td>
+          Verifying deleted Land Credential record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'STATEMENT OF THE STATUS OF INFORMATION DECLARED IN CAR is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/839795c58f4bc3652b6fc5d71facc71ba907d3e2?auth_token=48420107b609b45a3c3a3010612ccd7643e45dae95bdcce46ea49f69d3c16ab9' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:17 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/839795c58f4bc3652b6fc5d71facc71ba907d3e2/video?token=Wkd4T2NrcDdsQVFybVJqOEMyNUhGUXdRS0pKRDVoQ1FadUUwam1jakllcWtnRUtkd1pvV1dzbnd1U1Vjd3l5SFlTblFEVmd3Nm9aeUI1Wk1TZjYrdHc9PS0tZVV4Rjdad0lDOXZ5Nm5wNlVGNERBQT09--a8f579d9345a95f3549aeb3031c302171a49df15&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MdlFlowSanityTest :: downloadMdlVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:58:17 AM</span> / <span>00:01:21:595</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MdlFlowSanityTest :: downloadMdlVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:58:17 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:59:38 AM</span>
+<span class='badge badge-default'>00:01:21:595</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:49 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:50 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:51 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:52 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:57 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:01 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:02 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:03 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:03 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:04 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Check if Esignet issuer description is displayed - Visible at current position<details><summary>Locator Details</summary><pre>By.AppiumaccessibilityId("issuerDescription-Mosip")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Step: Download VC via eSignet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:14 AM</td>
+        <td>
+          Click on 'Download via Mdl' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (d6e0fc064eb9ef34aa63081c97a30523996e568c)] -> accessibility id: issuerHeading-MockMdl]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:15 AM</td>
+        <td>
+          Click on 'Mdl Verifiable Credential' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (d6e0fc064eb9ef34aa63081c97a30523996e568c)] -> accessibility id: credentialTypeHeading-DrivingLicenseCredential]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:17 AM</td>
+        <td>
+          Clicking on continue button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'CONTINUE')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:19 AM</td>
+        <td>
+          Entering UIN or VID in the input textbox: 2154189532 - Entered text: '2154189532'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.androidUIAutomator: UiSelector().className("android.widget.EditText").instance(0)})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:20 AM</td>
+        <td>
+          Clicking on Get OTP button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:30 AM</td>
+        <td>
+          Clicking on Verify button after hiding keyboard - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:32 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:33 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:33 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:35 AM</td>
+        <td>
+          Check if Detailed VC View page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idDetailsHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:35 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:36 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (d6e0fc064eb9ef34aa63081c97a30523996e568c)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:36 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:37 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Verifying downloaded mDL history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'DrivingLicenseCredential is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Verifying deleted mDL history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'DrivingLicenseCredential is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/d6e0fc064eb9ef34aa63081c97a30523996e568c?auth_token=3a00858dbe0b057bf7d4c84151d016b5bb40a53dfab622770818861dab91feb7' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/d6e0fc064eb9ef34aa63081c97a30523996e568c/video?token=RURwZXVDNnJLNkJXNmplQlhyUEN2NGREUCtJOEszVnh5dkViZncvbjRRMEJPV0FiMEg1NWpoYTc0NUhqNUZKNTBRWjBtNjNteUpNekR2T1luNG1veGc9PS0tNUZhOTB4ZU8rcUNXU1R2SEVQT1hXdz09--c783ab60c6aae7d500de7e76222b67e174b8c1c3&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">HelpPageAndAboutPageSanityTest :: verifyHelpPageAndAboutPage</p>
+            <p class="text-sm">
+              <span>5:58:17 AM</span> / <span>00:01:06:367</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">HelpPageAndAboutPageSanityTest :: verifyHelpPageAndAboutPage</h5>
+<span class='badge badge-success'>11.19.2026 5:58:17 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:59:23 AM</span>
+<span class='badge badge-default'>00:01:06:367</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:46 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:47 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:48 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:49 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:53 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:58 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:59 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:00 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:00 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:01 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:02 AM</td>
+        <td>
+          Clicking on 'Help' icon - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: helpText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:04 AM</td>
+        <td>
+          Getting text from 'Bring your digital identity' label - Text from element: 'Bring your digital identity'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: bringYourDigitalID})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Clicking on 'Help' icon - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: helpText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Checking if 'Help' page is loaded<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: helpScreen})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:11 AM</td>
+        <td>
+          Checking if 'What is Share with Selfie' header is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.androidUIAutomator: new UiScrollable(new UiSelector()).scrollIntoView(text("What is Share with selfie?"));})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:11 AM</td>
+        <td>
+          Clicking on 'Close' icon to exit Help page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: close})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:12 AM</td>
+        <td>
+          Checking if 'Home' button is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: home})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:12 AM</td>
+        <td>
+          Clicking on 'Settings' icon - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: settings})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:12 AM</td>
+        <td>
+          Checking if Settings page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: settingsScreen})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:13 AM</td>
+        <td>
+          Clicking on About Inji - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: aboutInjiTitle})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:13 AM</td>
+        <td>
+          Check if 'About Inji' header is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: aboutInji})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:14 AM</td>
+        <td>
+          Get 'About Inji' header text - Text from element: 'About Inji Wallet'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: aboutInji})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:14 AM</td>
+        <td>
+          Fetch App ID text - Text from element: ' : C8W75JWCWT6N'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: (//android.widget.TextView)[5]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:14 AM</td>
+        <td>
+          Click on 'Copy' text/button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: CopyText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:15 AM</td>
+        <td>
+          Check if 'App ID Copied' text is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: CopiedText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:18 AM</td>
+        <td>
+          Click on 'Back' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: CopyText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:22 AM</td>
+        <td>
+          Check if 'Copy' text is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: CopyText})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:22 AM</td>
+        <td>
+          Click on 'Click Here' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: clickHere})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:22 AM</td>
+        <td>
+          Verifying whether the URL reached the browser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/670f57b7c273a12510545311d0c206f33615306b?auth_token=958376883da4e5d8fd73eb36c604b75e52eb08aba5fff72ca3b9a9752c2831a2' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/670f57b7c273a12510545311d0c206f33615306b/video?token=MU9xNHB4UWpCU3Z0aXBRQmR1czRYSEgwRjNHM2dJeWVRVk85dGwyNVVoZ3BJaFg3Z3dzaS9PYyt4SGtqQ2tsbVhNSUZ3dWU1U3Qyd0d6Q21XQUExRHc9PS0tSWtUV2VKNllhQzNOVWVUa1hmQU4wZz09--a73b4db2a4906b86f8b04ecdd5a0bf6516b13c43&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">MockFlowSanityTest :: downloadMockVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:58:26 AM</span> / <span>00:01:14:044</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MockFlowSanityTest :: downloadMockVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:58:26 AM</span>
+<span class='badge badge-danger'>11.19.2026 5:59:40 AM</span>
+<span class='badge badge-default'>00:01:14:044</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:52 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:53 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:54 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:58:55 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:00 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:05 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:06 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:08 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:09 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:10 AM</td>
+        <td>
+          Check if Esignet issuer description is displayed - Visible at current position<details><summary>Locator Details</summary><pre>By.AppiumaccessibilityId("issuerDescription-Mosip")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:10 AM</td>
+        <td>
+          Step: Download VC via eSignet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:17 AM</td>
+        <td>
+          Click on 'Download via Mock sd jwt' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f160e3bc8665d5f0ca6fac38ef613fb9a05c74c8)] -> accessibility id: issuerHeading-Mock]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:19 AM</td>
+        <td>
+          Click on 'Mock Sd Jwt' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f160e3bc8665d5f0ca6fac38ef613fb9a05c74c8)] -> accessibility id: credentialTypeHeading-MockVerifiableCredential_SD_JWT]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:20 AM</td>
+        <td>
+          Clicking on continue button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'CONTINUE')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:22 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '1795067703467'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          Click on 'Hide Keyboard and Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          Step: Enter OTP for eSignet verification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:33 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:33 AM</td>
+        <td>
+          Step: Complete VC download
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:35 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:36 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:36 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:37 AM</td>
+        <td>
+          Check if Detailed VC View page title is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idDetailsHeader})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:37 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (f160e3bc8665d5f0ca6fac38ef613fb9a05c74c8)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:39 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:40 AM</td>
+        <td>
+          Verifying downloaded Mock VC history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Mock Verifiable Credential (SD-JWT) is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:40 AM</td>
+        <td>
+          Verifying delete history Mock VC history record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Mock Verifiable Credential (SD-JWT) is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:59:40 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:40 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/f160e3bc8665d5f0ca6fac38ef613fb9a05c74c8?auth_token=46e4f874d34d583f01a7da8e6159665b997471f04e126168ae25a782b96aa864' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:40 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/f160e3bc8665d5f0ca6fac38ef613fb9a05c74c8/video?token=ZzNXUFlzeGJNTWZ4UTBOUUFqWHpXQ0s5NDVSKzQwNngvTWRLTHZTbi9SS2JuMHpWMng5Yk0vbVVtdEJBQUV6MHlKRzJkaDROVHhaaWJocklGNHFSWXc9PS0tSU5veTZVTHl4ekhCbEJiWk0xNk12UT09--03198140ef0639850249c608099cc82f3b59d6a9&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">SunbirdFlowSanityTest :: downloadSunbirdVCAndDeleteSmoke</p>
+            <p class="text-sm">
+              <span>5:58:37 AM</span> / <span>00:01:41:698</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">SunbirdFlowSanityTest :: downloadSunbirdVCAndDeleteSmoke</h5>
+<span class='badge badge-success'>11.19.2026 5:58:37 AM</span>
+<span class='badge badge-danger'>11.19.2026 6:00:19 AM</span>
+<span class='badge badge-default'>00:01:41:698</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:07 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:08 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:09 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:10 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:14 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:19 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:20 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:20 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:21 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:22 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:23 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:24 AM</td>
+        <td>
+          Verify 'Download via Sunbird' option is visible - Visible at current position<details><summary>Locator Details</summary><pre>By.AppiumaccessibilityId("issuerHeading-StayProtected")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:25 AM</td>
+        <td>
+          Click on 'Download via Sunbird' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (ecde6a892f3eb67818e4c018c2b2930aa37bab66)] -> accessibility id: issuerHeading-StayProtected]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:26 AM</td>
+        <td>
+          Click on Insurance Credential type heading - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (ecde6a892f3eb67818e4c018c2b2930aa37bab66)] -> accessibility id: credentialTypeHeading-InsuranceCredential]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:28 AM</td>
+        <td>
+          Click on continue button in popup before entering policy number - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'CONTINUE')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:29 AM</td>
+        <td>
+          Clicking on language dropdown - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.view.View[@resource-id="language_selection"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:30 AM</td>
+        <td>
+          Changing to english language - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.view.MenuItem[@resource-id="en0"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:30 AM</td>
+        <td>
+          Enter policy number: 484050861 - Entered text: '484050861'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[@resource-id="policyNumber"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:30 AM</td>
+        <td>
+          Enter full name: Deadra Kautzer - Entered text: 'Deadra Kautzer'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="fullName"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:31 AM</td>
+        <td>
+          Click on date of birth input field - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="dob"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:32 AM</td>
+        <td>
+          Click on set button to confirm date of birth - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="android:id/button1"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:04 AM</td>
+        <td>
+          Click on fallback login button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Login"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:09 AM</td>
+        <td>
+          Click on Done button after login - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:10 AM</td>
+        <td>
+          Check if Sunbird card is active (status visible)<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: wallet-activated-icon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:10 AM</td>
+        <td>
+          Check if Sunbird square logo is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: issuerLogo})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:10 AM</td>
+        <td>
+          Open detailed view of Sunbird VC - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: credentialTypeValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:11 AM</td>
+        <td>
+          Fetch full name from Sunbird card - Text from element: 'Deadra Kautzer'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: fullNameValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:11 AM</td>
+        <td>
+          Fetch policy name from Sunbird card - Text from element: 'Start Insurance Gold Premium'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: policyNameValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:12 AM</td>
+        <td>
+          Fetch phone number from Sunbird card - Text from element: '0123456789'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: mobileValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:12 AM</td>
+        <td>
+          Check if date of birth is displayed on Sunbird card<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: dobValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:12 AM</td>
+        <td>
+          Fetch gender value from Sunbird card - Text from element: 'Male'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: genderValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:13 AM</td>
+        <td>
+          Fetch email ID from Sunbird card (scrolled) - Text from element: 'automation@gmail.com'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: emailValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:13 AM</td>
+        <td>
+          Fetch status value from Sunbird card - Text from element: 'Valid'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:13 AM</td>
+        <td>
+          Fetch ID type from Sunbird card - Text from element: 'Health Insurance'<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: idTypeValue})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:14 AM</td>
+        <td>
+          Clicking on credential to open Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:15 AM</td>
+        <td>
+          Click on the 'More Options' button in Detailed VC View - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: KebabIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:15 AM</td>
+        <td>
+          Clicking on 'Remove from Wallet' button - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (ecde6a892f3eb67818e4c018c2b2930aa37bab66)] -> accessibility id: removeFromWallet]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:16 AM</td>
+        <td>
+          Click on Yes button to confirm - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: yesConfirm})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:17 AM</td>
+        <td>
+          Clicking on 'History' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: history})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:18 AM</td>
+        <td>
+          Checking if History page header is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'History')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:18 AM</td>
+        <td>
+          Verifying downloaded Health Insurance record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Health Insurance is downloaded.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:18 AM</td>
+        <td>
+          Verifying deleted Health Insurance record on Android<details><summary>Locator Details</summary><pre>By.xpath("//*[contains(@text,'Health Insurance is removed from wallet.')]")</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:00:18 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:18 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/ecde6a892f3eb67818e4c018c2b2930aa37bab66?auth_token=28fb0df78a69ced5ac2c465f199d83c3515989f269f5c991fa68b0940b1d6586' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:19 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/ecde6a892f3eb67818e4c018c2b2930aa37bab66/video?token=YWRxL2FPcmh3RzlMK1RKTEFkb2FzYVhNRlhyaFh3clJWdXYwQXpSYVhqKzdreDMySVJNcDZnUk5mM0pqODZmbFIvSklRNkRJWm83eHI2TnowV1FZWXc9PS0tYXozRGsxWk9wbVZQZUlEV2Y0Y2REdz09--e7f0ecc1a7b9b21fced4b63aae19d99c1df7102e&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">DownloadVCInvalidThenValidOtpTest :: downloadVcInvalidOtpWaitThenValidOtp</p>
+            <p class="text-sm">
+              <span>5:59:07 AM</span> / <span>00:04:12:089</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">DownloadVCInvalidThenValidOtpTest :: downloadVcInvalidOtpWaitThenValidOtp</h5>
+<span class='badge badge-success'>11.19.2026 5:59:07 AM</span>
+<span class='badge badge-danger'>11.19.2026 6:03:19 AM</span>
+<span class='badge badge-default'>00:04:12:089</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:35 AM</td>
+        <td>
+          Click on 'Save Preference' to confirm language selection - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: savePreference})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:36 AM</td>
+        <td>
+          Click on Skip button on Welcome page - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: skipButton-one})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:37 AM</td>
+        <td>
+          Click on 'Use Passcode' button to proceed - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: usePasscode})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:38 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:42 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:47 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 1 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:47 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 2 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:48 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 3 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:49 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 4 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:50 AM</td>
+        <td>
+          Clicking through Inji Tour Next button step 5 - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:51 AM</td>
+        <td>
+          Clicking on 'Download Card' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: plusIcon})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:52 AM</td>
+        <td>
+          Verify if Add New Card header is visible<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: title})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:59:52 AM</td>
+        <td>
+          Step: Download VC via eSignet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:00 AM</td>
+        <td>
+          Click on 'Download via Mock sd jwt' - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (b8acb59785ad15fd87fe75e56236656ed261e87c)] -> accessibility id: issuerHeading-Mock]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:00 AM</td>
+        <td>
+          Click on 'Mock Sd Jwt' option - Clicked<details><summary>Locator Details</summary><pre>[[AndroidDriver:  on ANDROID (b8acb59785ad15fd87fe75e56236656ed261e87c)] -> accessibility id: credentialTypeHeading-MockVerifiableCredential_SD_JWT]</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:01 AM</td>
+        <td>
+          Step: Click eSignet Login with OTP button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:02 AM</td>
+        <td>
+          Click on 'Continue' button in Esignet login popup - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.id: android:id/button1})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:03 AM</td>
+        <td>
+          Check if ESignet page is landed and ESignet logo is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: brand_logo})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:04 AM</td>
+        <td>
+          Enter UIN or VID in Enter ID textbox - Entered text: '1795067703467'<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.EditText[@resource-id="Otp_vid"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:05 AM</td>
+        <td>
+          Click on 'Get OTP' button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@text="Get OTP"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:07 AM</td>
+        <td>
+          Check if OTP sent message is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //*[contains(@text,'Please enter the 6-digit OTP sent to')]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:07 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:16 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:00:17 AM</td>
+        <td>
+          Verify invalid OTP message is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.TextView[@resource-id="error-banner-message"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:06 AM</td>
+        <td>
+          Waiting for the resend button to be enabled<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="resend_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:06 AM</td>
+        <td>
+          Click on Resend Code button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="resend_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:06 AM</td>
+        <td>
+          Located at least 6 elements for: By.className: android.widget.EditText
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:15 AM</td>
+        <td>
+          Click on 'Verify' button after entering OTP - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({By.xpath: //android.widget.Button[@resource-id="verify_otp"]})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:15 AM</td>
+        <td>
+          Step: Complete VC download
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:18 AM</td>
+        <td>
+          Click on Done button - Clicked<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: copilot-next-action})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:19 AM</td>
+        <td>
+          Checking if Credential Type Value is displayed<details><summary>Locator Details</summary><pre>Located by By.chained({AppiumBy.accessibilityId: verificationStatus})</pre></details>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:03:19 AM</td>
+        <td>
+          Test Passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:19 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/builds/b490449dd5742e4a37e630b0a4263bf8891c3a4b/sessions/b8acb59785ad15fd87fe75e56236656ed261e87c?auth_token=1c7ee2db402bd6dc06481649cf0997461ff0eb133649b07ca6e482202fc9579b' target='_blank'>View on BrowserStack</a>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>6:03:19 AM</td>
+        <td>
+          <a href='https://app-automate.browserstack.com/sessions/b8acb59785ad15fd87fe75e56236656ed261e87c/video?token=UkVNQ0x3RW0xVWxVYUpQV3ZZRyszQUdZbDFwNFROT3ZZbDNYN3JHZ2YzeHpMZHEwUkphaEVPUkNKVC9ZV2pFNUxmeWhpWHYrKzF3amNSVWhzMUV6SVE9PS0tOTdHMVM5NWVVbEtDdU9ZL2RyMnplZz09--2432d289cc811c49d2f3fc8df4263c04413be02f&source=rest_api&diff=-1' target='_blank'>Click here to view only Video</a>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 19, 2026 05:56:34 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 19, 2026 06:03:19 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>9</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='90%'>
+<b>9</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='10%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='2%'><b>10</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>343</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"NoNetworkFlowSanityTest :: downloadMosipIdVCWithoutInternet":112.229,"MosipFlowSanityTest :: downloadMosipIdVCAndActivateVCAndDeleteSmoke":142.657,"FarmerFlowSanityTest :: downloadFarmerVCAndDeleteSmoke":101.685,"ShareAndReceiveCardSanityTest :: shareVcAndReceiveVc":92.434,"LandFlowSanityTest :: downloadLandVCAndDeleteSmoke":92.303,"MdlFlowSanityTest :: downloadMdlVCAndDeleteSmoke":81.595,"HelpPageAndAboutPageSanityTest :: verifyHelpPageAndAboutPage":66.367,"MockFlowSanityTest :: downloadMockVCAndDeleteSmoke":74.044,"SunbirdFlowSanityTest :: downloadSunbirdVCAndDeleteSmoke":101.698,"DownloadVCInvalidThenValidOtpTest :: downloadVcInvalidOtpWaitThenValidOtp":252.089
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Git Branch</td>
+<td></td>
+</tr>
+<tr>
+<td>Git Commit ID</td>
+<td></td>
+</tr>
+<tr>
+<td>Device Name</td>
+<td>Google Pixel 7 Pro</td>
+</tr>
+<tr>
+<td>Platform Name</td>
+<td>Android</td>
+</tr>
+<tr>
+<td>platform version</td>
+<td>13.0</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 9,
+failParent: 0,
+warningParent: 1,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 10,
+failEvents: 0,
+warningEvents: 1,
+skipEvents: 0,
+infoEvents: 342
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
